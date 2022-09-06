@@ -9,3 +9,9 @@ The preceding code:
 
 Calls the controller's View method.
 Uses a view template to generate an HTML response.
+Replace the contents of the Views/HelloWorld/Index.cshtml Razor view file 
+Navigate to https://localhost:{PORT}/HelloWorld:
+
+The Index method in the HelloWorldController ran the statement return View();, which specified that the method should use a view template file to render a response to the browser.
+
+A view template file name wasn't specified, so MVC defaulted to using the default view file. When the view file name isn't specified, the default view is returned. The default view has the same name as the action method, Index in this example. The view template /Views/HelloWorld/Index.cshtml is used.
