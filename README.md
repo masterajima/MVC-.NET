@@ -4,3 +4,8 @@ Controllers: Classes that:
 Handle browser requests.
 Retrieve model data.
 Call view templates that return a response.
+Currently the Index method returns a string with a message in the controller class. In the HelloWorldController class, replace the Index method
+The preceding code:
+
+Calls the controller's View method.
+Uses a view template to generate an HTML response.
